@@ -20,15 +20,15 @@
         "command": "fm_delete"
     },
     {
-        "caption": "File Manager: Open In Explorer",
-        "command": "fm_open_in_explorer"
+        "caption": "File Manager: Reveal",
+        "command": "fm_reveal"
     },
     {
-        "caption": "File Manager: Open In Browser",
+        "caption": "File Manager: Open in browser",
         "command": "fm_open_in_browser"
     },
     {
-        "caption": "File Manager: Open Terminal",
+        "caption": "Terminal: Open Terminal",
         "command": "fm_open_terminal"
     },
     {
@@ -65,25 +65,11 @@
         }
     },
     {
-        "caption": "File Manager: List Templates",
-        "command": "fm_create",
-        "args": {
-            "paths": ["${packages}/User/.FileManager/"],
-            "initial_text": "",
-            "start_with_browser": true,
-            "no_browser_action": true
-        }
-    },
-    {
         "caption": "Preferences: File Manager Settings",
         "command": "edit_settings",
         "args": {
-            "base_file": "${packages}/FileManager/.sublime/FileManager.sublime-settings",
+            "base_file": "${packages}/FileManager/FileManager.sublime-settings",
             "default": "// Your settings for FileManager. See the default file to see the different options. \n{\n\t$0\n}\n"
         }
-    },
-    {
-        "caption": "File Manager: Create File From Selection",
-        "command": "fm_create_file_from_selection"
     }
 ]
