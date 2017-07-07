@@ -78,3 +78,6 @@ hacky mood, go ahead and code it:
 Note: This plugin is only working on Sublime Text 3.
 
 [0]: https://math2001.github.io/FileManager/contributing/
+
+## License
+See the LICENSE file
