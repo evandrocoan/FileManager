@@ -35,26 +35,28 @@ FileManager doesn't have a command `create_new_file` and `create_new_folder`. Ju
 
 Although they're a fair bit of information in there, the docs are still a work in progress. Here they are: [math2001.github.io/FileManager](https://math2001.github.io/FileManager). **Go have a quick look, you won't regret it** :smile:
 
+
 ## Installation
 
-#### Using package control
+### By Package Control
 
-1. Open up the command palette: <kbd>ctrl+shift+p</kbd>
-2. Search for `Package Control: Install Package`
-3. Search for `FileManager`
-4. Hit <kbd>enter</kbd> :wink:
+1. Download & Install `Sublime Text 3` (https://www.sublimetext.com/3)
+1. Go to the menu `Tools -> Install Package Control`, then,
+   wait few seconds until the `Package Control` installation finishes
+1. Go to the menu `Preferences -> Package Control`
+1. Type `Package Control Add Channel` on the opened quick panel and press <kbd>Enter</kbd>
+1. Then, input the following address and press <kbd>Enter</kbd>
+   ```
+   https://raw.githubusercontent.com/evandrocoan/StudioChannel/master/channel.json
+   ```
+1. Now, go again to the menu `Preferences -> Package Control`
+1. This time type `Package Control Install Package` on the opened quick panel and press <kbd>Enter</kbd>
+1. Then, search for `FileManager` and press <kbd>Enter</kbd>
 
-#### Using the command line
+See also:
+1. [ITE - Integrated Toolset Environment](https://github.com/evandrocoan/ITE)
+1. [Package control docs](https://packagecontrol.io/docs/usage) for details.
 
-If you want to contribute to this package, first thanks, and second, you should download this using `git` so that you can propose your changes.
-
-```bash
-cd "%APPDATA%\Sublime Text 3\Packages"             # on Windows
-cd ~/Library/Application\ Support/Sublime\ Text\ 3 # on Mac
-cd ~/.config/sublime-text-3                        # on Linux
-
-git clone "https://github.com/math2001/FileManager"
-```
 
 ## How to open the [`README`](https://github.com/math2001/FileManager/blob/master/README.md)
 
